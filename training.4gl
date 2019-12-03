@@ -1,11 +1,20 @@
-##No 1
+
+#######################################################
+
+##No 1 PRINT HELLO WORLD
+
 #MAIN
 #   DISPLAY "HELLO WORLD" AT 1,1
 #END MAIN
 
+#######################################################
+
+##No 2 
+#Mencari statement berdasarkan nilai tertentu
+# Jika nilai diatas 60, maka hasil PASS
+# Jika nilai dibawah 60, maka hasil NOT PASS
 
 
-##No 2
 #MAIN
 #DEFINE i INTEGER
 #
@@ -17,9 +26,16 @@
 #   END IF  
 #END MAIN
 
+#######################################################
 
+##No 3 
+# Mencari grade suatu nilai
+#   jika nilai lebih besar atau sama dengan 80, maka grade adalah "A"
+#   jika nilai lebih besar atau sama dengan 70 dan nilai lebih kecil dari 80, maka grade "B"
+#   jika nilai lebih besar atau sama dengan 60 dan nilai lebih kecil dari 70, maka grade "C"
+#   jika nilai lebih besar atau sama dengan 50 dan nilai lebih kecil dari 60, maka grade"D"
+#   jika nilai lebih kecil dari 80, maka grade adalah "E"
 
-##No 3
 #MAIN
 #DEFINE i INTEGER
 #
@@ -40,9 +56,15 @@
 #   END IF  
 #END MAIN
 
-
+#######################################################
 
 ##No 4
+#     *
+#     **
+#     ***
+#     ****
+#     *****
+
 #MAIN
 #DEFINE i INTEGER, 
 #       j INTEGER
@@ -53,9 +75,15 @@
 #   END FOR
 #END MAIN
 
-
+#######################################################
 
 ##No 5
+#    *****
+#    ****
+#    ***
+#    **
+#    *
+
 #MAIN
 #DEFINE i INTEGER, 
 #       j INTEGER,
@@ -69,9 +97,15 @@
 #   END FOR
 #END MAIN
 
-
+#######################################################
 
 ##No 6
+#   *********                                        
+#    *******                                        
+#     *****                                        
+#      ***                                        
+#       *  
+
 #MAIN
 #DEFINE i INTEGER, 
 #       j INTEGER, 
@@ -93,40 +127,52 @@
 #   END FOR
 #END MAIN
 
-
+#######################################################
 
 ##No 7
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+
 #MAIN
 #DEFINE i INTEGER, 
 #       j INTEGER, 
 #       k INTEGER, 
 #       m INTEGER,
-#       n INTEGER    
+#       n INTEGER
+#            
 #LET k = 5
-#
+#LET m = 1
 #   FOR i = 1 TO 5
-#   	  
-#   	  LET m = k
-#   	  LET n = 5
-#   	  
-#      FOR j = 1 TO i
-#         DISPLAY "*" AT i,m
-#         LET m = m + 1
-#      END FOR
-#      
-#      FOR j = 1 TO i
+#   	  LET n = k
+#   	  FOR j = 1 TO m
 #         DISPLAY "*" AT i,n
 #         LET n = n + 1
 #      END FOR
-#            
 #      LET k = k - 1
-#      
+#      LET m = m + 2
 #   END FOR
 #END MAIN
 
-
+#######################################################
 
 ##No 8
+#      *
+#     **
+#    ***
+#   ****
+#  *****
+# ******
+#  *****
+#   ****
+#    ***
+#     **
+#      *
+
+
 #MAIN
 #DEFINE i INTEGER, 
 #       j INTEGER, 
@@ -155,9 +201,22 @@
 #   END FOR
 #END MAIN
 
-
+#######################################################
 
 ##No 9
+#  *
+#  **
+#  ***
+#  ****
+#  *****
+#  ******
+#  *****
+#  ****
+#  ***
+#  **
+#  *
+
+
 #MAIN
 #DEFINE i INTEGER, 
 #       j INTEGER, 
@@ -183,8 +242,13 @@
 #   END FOR
 #END MAIN
 
+#######################################################
 
 ##No 91
+#Mencari bilangan ganjil atau genap dari suatu nilai
+#	->Jika suatu angka dimasukan, maka akan muncul bilangan tersebut ganjil/genap
+
+
 #MAIN
 #DEFINE i INTEGER   
 #
@@ -196,8 +260,12 @@
 #   END IF  
 #END MAIN
 
+#######################################################
 
 ##No 10
+#Display hasil berikut :  1,2,AA,4,5,AA,7,8,AA
+
+
 #MAIN
 #DEFINE i INTEGER,
 #       j INTEGER,
@@ -220,8 +288,15 @@
 #DISPLAY " " AT 1,k 
 #END MAIN
 
+#######################################################
 
 ##No 11
+#Input Text : _____________
+#	 Display :
+#  5 Karakter Pertama
+#  5 Karakter Terakhir
+
+
 #MAIN
 #DEFINE i CHAR (20),
 #       j INTEGER,
@@ -240,9 +315,12 @@
 # 
 #END MAIN
 
+#######################################################
+
+##No 12
+#Membuat Animasi bola bergerak.
 
 
-#No 12
 MAIN
 DEFINE i INTEGER,
        j INTEGER,
